@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from "react";
-
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
@@ -26,7 +25,7 @@ const Hero = () => {
   subtitle: "Sustainable Impact. Shared Progress.",
   description:
     "Since 2012, Kiran Foundation has been a beacon of hope for underprivileged communities. Our mission is to empower individuals through education, healthcare, women’s empowerment, and rural development. By nurturing dignity, opportunity, and resilience, we strive to create a society where every life has equal value and every voice is heard.",
-  src: './src/assets/Hero/backg.gif',
+  src: "Hero/background.gif",
   
 
     },
@@ -35,7 +34,7 @@ const Hero = () => {
       subtitle: "Inspiring Progress. Empowering Lives.",
       description:
         "Kiran Foundation is a Nagpur based non-profit organization, striving to help the underprivileged, troubled & weaker sections of the community to lead a dignified life to build a powerful & viable society.",
-      src:'./src/assets/Hero/backg.gif',
+      src: "Hero/background.gif",
       
     },
     
